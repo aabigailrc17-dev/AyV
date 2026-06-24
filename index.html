@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Chic | Proyecto Final IPN UPIICSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- CONTROLADORES CSS (En lugar de JavaScript para ventanas emergentes) -->
+    <input type="checkbox" id="toggle-admin" class="hidden-trigger">
+    <input type="checkbox" id="toggle-pago" class="hidden-trigger">
+
+    <!-- 1. PORTADA / INICIO & 2. ÍNDICE / MENÚ -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">ALEyVANE</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Catálogo</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#competencia">Estrategia</a></li>
+                <li><label for="toggle-admin" class="btn-gold-nav">Área Privada (Proyecto)</label></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PORTADA / INICIO (HERO) -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>AyV</h1>
+            <p class="tagline">Moda de tendencia para la mujer universitaria y oficinista</p>
+            <p class="academic-info">INSTITUTO POLITÉCNICO NACIONAL | UPIICSA</p>
+            <a href="#productos" class="btn-gold">Explorar Colección</a>
+        </div>
+    </section>
+
+    <!-- 3. DESCRIPCIÓN DEL PROYECTO & 13. CATÁLOGO DIGITAL EXTENSO -->
+    <section id="productos" class="main-section">
+        <h2>Descripción del Proyecto</h2>
+        <p class="section-desc">Emprendimiento digital enfocado en una marca de ropa de tendencia exclusiva para mujer. Diseñada minuciosamente para resolver la transición estilística de mujeres universitarias y oficinistas a través de prendas inteligentes, cómodas y sofisticadas bajo una infraestructura de retail ágil y automatizada.</p>
+        
+        <h3 class="subsection-title">Catálogo Digital</h3>
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <div class="product-img u1"></div>
+                <h4>Blazer Oversize Rosa Pastel</h4>
+                <p class="category">Universitaria / Smart Casual</p>
+                <p class="price">$799.00</p>
+                <label for="toggle-pago" class="btn-add-label">Comprar</label>
+            </div>
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <div class="product-img o1"></div>
+                <h4>Pantalón Sastre High-Waist Ivory</h4>
+                <p class="category">Oficinista / Ejecutivo</p>
+                <p class="price">$850.00</p>
+                <label for="toggle-pago" class="btn-add-label">Comprar</label>
+            </div>
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <div class="product-img u2"></div>
+                <h4>Vestido Midi Soft Knit</h4>
+                <p class="category">Universitaria / Tendencia</p>
+                <p class="price">$920.00</p>
+                <label for="toggle-pago" class="btn-add-label">Comprar</label>
+            </div>
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <div class="product-img o2"></div>
+                <h4>Zapatos Mule Dorados Premium</h4>
+                <p class="category">Oficinista / Calzado</p>
+                <p class="price">$1,150.00</p>
+                <label for="toggle-pago" class="btn-add-label">Comprar</label>
+            </div>
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <div class="product-img u3"></div>
+                <h4>Falda Plisada Academic Sand</h4>
+                <p class="category">Universitaria / Estilo Preppy</p>
+                <p class="price">$649.00</p>
+                <label for="toggle-pago" class="btn-add-label">Comprar</label>
+            </div>
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <div class="product-img o3"></div>
+                <h4>Camisa de Seda Royal Cream</h4>
+                <p class="category">Oficinista / Formal Corporativo</p>
+                <p class="price">$780.00</p>
+                <label for="toggle-pago" class="btn-add-label">Comprar</label>
+            </div>
+        </div>
+
+        <!-- 14. PALABRAS CLAVE -->
+        <div class="keywords-box">
+            <h3>Palabras Clave (Keywords)</h3>
+            <span class="keyword">#ModaUniversitaria</span>
+            <span class="keyword">#RopaOficinaMujer</span>
+            <span class="keyword">#EstiloRosaYChic</span>
+            <span class="keyword">#TendenciaSmartCasual</span>
+            <span class="keyword">#SastreríaFemeninaJoven</span>
+        </div>
+    </section>
+
+    <!-- 4. NOSOTROS & 5. MISIÓN, VISIÓN, OBJETIVO -->
+    <section id="nosotros" class="about-section">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <p><strong>Integrante 1:</strong> Rodriguez Castro Alejandra Abigail</p>
+                </div>
+                <div class="team-member">
+                    <p><strong>Integrante 2:</strong> Pietrowski Herrera Vanessa Jacqueline</p>
+                </div>
+            </div>
+            <p class="academic-meta"><strong>Grupo:</strong> 7CV79 | <strong>Materia:</strong> 4ta Revolución Industrial y Economía Digital</p>
+
+            <hr class="gold-line">
+
+            <h2>Direccionamiento Estratégico</h2>
+            <div class="strategic-grid">
+                <div class="strat-card">
+                    <h3>Misión</h3>
+                    <p>Empoderar el día a día de las mujeres jóvenes vistiéndolas con tendencias sofisticadas y accesibles que faciliten su desenvolvimiento integral en las aulas y las empresas.</p>
+                </div>
+                <div class="strat-card">
+                    <h3>Visión</h3>
+                    <p>Ser la marca nativa digital (DNVB) referente en América Latina de moda corporativa y estudiantil femenina para el año 2028, apalancando tecnologías de la economía de las TIC.</p>
+                </div>
+                <div class="strat-card">
+                    <h3>Objetivo</h3>
+                    <p>Desarrollar un canal e-commerce fluido y automatizado enfocado en la experiencia de usuario, logrando una retención del cliente del 35% en el primer año operativo.</p>
+                </div>
+            </div>
+            <blockquote class="quote-text">
+                <strong>Emprendimiento digital exitoso:</strong> AyV aplica pilares fundamentales de la transformación digital de las organizaciones, optimizando los inventarios mediante análisis predictivo de datos de tendencias.
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- 11. COMPETENCIA & 12. CRONOGRAMA DE ACTIVIDADES -->
+    <section id="competencia" class="strategy-section">
+        <div class="container">
+            <h2>Análisis de la Competencia</h2>
+            <p class="mb-30">Nuestros competidores directos engloban firmas de fast-fashion tradicionales (Zara, Stradivarius) y tiendas en línea globales (Shein, Cider). AyV se posiciona con ventaja competitiva gracias a una curaduría enfocada estrictamente en el nicho "estudios-trabajo", un servicio al cliente hiperpersonalizado y textiles sustentables de alta durabilidad frente a la competencia de bajo costo.</p>
+
+            <h2>Cronograma de Actividades del Proyecto</h2>
+            <div class="timeline">
+                <div class="timeline-item"><strong>Fase 1 (Semanas 1-4):</strong> Investigación de mercado, definición de Buyer Persona y modelado del Lienzo Canva.</div>
+                <div class="timeline-item"><strong>Fase 2 (Semanas 5-8):</strong> Constitución legal, registro de marca y tramitación de derechos de propiedad intelectual.</div>
+                <div class="timeline-item"><strong>Fase 3 (Semanas 9-12):</strong> Selección de proveedores textiles locales y diseño del catálogo digital expandido.</div>
+                <div class="timeline-item"><strong>Fase 4 (Semanas 13-16):</strong> Desarrollo de la plataforma web responsiva e integración de la pasarela de pagos digital.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 20. SECCIÓN NOVEDOSA DE VALOR: PROBADOR VIRTUAL "MIRROR AI" -->
+    <section class="innovative-section">
+        <div class="container">
+            <div class="innovative-badge">Novedad Tecnológica 2026</div>
+            <h2>Probador Espejo Inteligente (Mirror AI)</h2>
+            <p>Hemos implementado de forma pionera un **Probador de Realidad Aumentada sin Aplicaciones**. Utilizando únicamente la cámara web de tu computadora o celular, nuestro sistema escanea tu silueta en 3D para proyectar exactamente cómo se amoldarán las prendas del catálogo a tus proporciones corporales, indicándote la talla perfecta y eliminando la fricción de las devoluciones por error de tamaño.</p>
+            <div class="mirror-container">
+                <div class="mirror-overlay">
+                    <p>✨ Escaneando Silueta con IA... ✨</p>
+                    <small>Prueba virtual de Blazer Rosa habilitada para tu perfil</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PANTALLA DE INTERFAZ DE PAGO (Controlada puramente con CSS mediante el checkbox toggle-pago) -->
+    <div class="pago-overlay-container">
+        <div class="pago-modal">
+            <label for="toggle-pago" class="close-pago">&times;</label>
+            <h3>Procesar Pago Seguro</h3>
+            <p class="pago-subtitle">Estás a un paso de estrenar tu prenda AyV</p>
+            
+            <form action="#" onsubmit="return false;" class="pago-form">
+                <div class="form-group">
+                    <label>Nombre en la Tarjeta</label>
+                    <input type="text" placeholder="Ej. Valeria Alarcón" required>
+                </div>
+                <div class="form-group">
+                    <label>Número de Tarjeta</label>
+                    <input type="text" placeholder="XXXX XXXX XXXX XXXX" required>
+                </div>
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label>Vencimiento</label>
+                        <input type="text" placeholder="MM/AA" required>
+                    </div>
+                    <div class="form-group">
+                        <label>CVV</label>
+                        <input type="password" placeholder="***" required>
+                    </div>
+                </div>
+                <!-- 15. PARRILLA DE CONTENIDO REDIRECCIONADA (Enfoque conversión en pasarela) -->
+                <p class="secure-text">🔒 Pago encriptado con tecnología bancaria SSL de 256 bits.</p>
+                <button type="reset" class="btn-finalizar">Finalizar Compra</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- DOCUMENTACIÓN DE PROYECTO OCULTA (Controlada con CSS mediante el checkbox toggle-admin) -->
+    <div class="admin-overlay-container">
+        <div class="admin-modal">
+            <label for="toggle-admin" class="close-admin">&times;</label>
+            <h2>Documentación Estratégica Escolar</h2>
+            <p class="alert-confidential">⚠️ Información Confidencial Reservada - Oculta a Clientes Generales</p>
+            <hr class="gold-line">
+            
+            <div class="admin-grid">
+                <!-- 6. DOCUMENTOS LEGALES -->
+                <div class="admin-card">
+                    <h4>Documentos Legales</h4>
+                    <p>Resguardo digital que integra el Acta Constitutiva formalizada ante Notario Público, constancia de inscripción en el RPC, protección de derechos de autor y registro de marca "AyV" ante el IMPI.</p>
+                    <a href="legal-doc.pdf" target="_blank" class="btn-redirect">Ver Documento Legal &rarr;</a>
+                </div>
+                <!-- 7. LIENZO CANVA -->
+                <div class="admin-card">
+                    <h4>Lienzo Business Model Canva</h4>
+                    <p>Estructura de 9 módulos que define los canales e-commerce, la propuesta de valor centrada en moda funcional rosa y dorado, los flujos de ingresos transaccionales y las alianzas estratégicas con maquilas mexicanas.</p>
+                    <a href="canva-diagrama.png" target="_blank" class="btn-redirect">Ver Lienzo Canva &rarr;</a>
+                </div>
+                <!-- 8. MAPA DE EMPATÍA -->
+                <div class="admin-card">
+                    <h4>Mapa de Empatía</h4>
+                    <p>Análisis cualitativo del segmento. Identifica qué oye en redes sociales (TikTok/Pinterest), qué ve en su entorno diario (compañeras y líderes de oficina) y cuáles son sus dolores (falta de tiempo, presupuestos balanceados).</p>
+                    <a href="mapa_empatia.png" target="_blank" class="btn-redirect">Ver Mapa Empatía &rarr;</a>
+                </div>
+                <!-- 9. BUYER PERSONA -->
+                <div class="admin-card">
+                    <h4>Buyer Persona</h4>
+                    <p>Perfil de cliente representativo: Sofía, 23 años. Estudia los últimos semestres en la UPIICSA y realiza prácticas profesionales en un corporativo. Requiere transicionar su ropa rápidamente con estilo.</p>
+                    <a href="buyer-persona.png" target="_blank" class="btn-redirect">Ver Buyer Persona &rarr;</a>
+                </div>
+                <!-- 10. SECCIÓN CLIENTES Y LICITACIONES -->
+                <div class="admin-card full-width">
+                    <h4>Sección Clientes & Licitaciones Gubernamentales</h4>
+                    <p><strong>a. Clientes para su propuesta:</strong> Mercado B2C enfocado en mujeres de 18 a 30 años en zonas metropolitanas de México.</p>
+                    <p><strong>b. Licitación Histórica (INE LP-INE-051/2020):</strong> </p>
+                    <p><strong>c. Licitación Vigente 2026 (A-38-90Y-03890Y999-N-48-2026):</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 18. LINK, 19. FUENTES -->
+    <footer class="footer-sections">
+    <div class="container footer-content">
+        
+        <!-- Bloque de Enlaces y Fuentes -->
+        <div class="footer-info">
+            <p><strong>Fuentes de consulta / Referencias:</strong> Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público (LAASSP); Normas del Instituto Nacional Electoral (INE) 2020; Manuales de Transformación Digital Industrial, IPN 2026.</p>
+        </div>
+
+        <!-- SECCIÓN DE REDES SOCIALES (NUEVA) -->
+        <div class="footer-socials">
+            <h4>Siguenos mas de cerca ...</h4>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://pinterest.com" target="_blank" class="social-link" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+                <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <p class="copyright">&copy; 2026 AyV. Proyecto Final Economía Digital.</p>
+    </div>
+</footer>
+
+</body>
+</html>
